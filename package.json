@@ -1,0 +1,23 @@
+{
+  "name": "facetats",
+  "version": "0.0.0",
+  "description": "A CLI soundcloud player written in javascript",
+  "main": "index.js",
+  "repository": "https://github.com/CatLover91/facetats.git",
+  "author": "catlover91 <7215827+CatLover91@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "start": "npm run build && node ./dist/bundle.js"
+  },
+  "dependencies": {
+    "soundcloud": "^3.3.0"
+  },
+  "devDependencies": {
+    "blessed-vue": "^2.0.1",
+    "vue-loader": "^15.4.2",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.1"
+  }
+}
