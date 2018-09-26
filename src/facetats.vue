@@ -1,6 +1,12 @@
 <template>
   <screen ref='screen' :smartCSR="true" :keys="true">
 
+    <box width="100%"
+         :height="1"
+         :bottom="0"
+         :left="0"
+         content="Test"
+         style="bg: white; fg: black; bold: true" />
   </screen>
 </template>
 <script>
